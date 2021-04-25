@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+<snapshot>
+	<name>sched</name>
+	<array>
+		<name>mask</name>
+		<source_loc>987</source_loc>
+		<datatype>
+			<array>3</array>
+			<datatype>
+				<array>3</array>
+				<datatype W="8">sc_uint</datatype>
+			</datatype>
+		</datatype>
+	</array>
+	<port>
+		<name>i_clk</name>
+		<source_loc>965</source_loc>
+		<clock/>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_rst</name>
+		<source_loc>966</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_r_busy</name>
+		<source_loc>973</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_r_vld</name>
+		<source_loc>974</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_r_data</name>
+		<source_loc>975</source_loc>
+		<direction>in</direction>
+		<datatype W="8">sc_uint</datatype>
+	</port>
+	<port>
+		<name>i_g_busy</name>
+		<source_loc>976</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_g_vld</name>
+		<source_loc>977</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_g_data</name>
+		<source_loc>978</source_loc>
+		<direction>in</direction>
+		<datatype W="8">sc_uint</datatype>
+	</port>
+	<port>
+		<name>i_b_busy</name>
+		<source_loc>979</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_b_vld</name>
+		<source_loc>980</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_b_data</name>
+		<source_loc>981</source_loc>
+		<direction>in</direction>
+		<datatype W="8">sc_uint</datatype>
+	</port>
+	<port>
+		<name>o_result_busy</name>
+		<source_loc>982</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>o_result_vld</name>
+		<source_loc>983</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>o_result_data</name>
+		<source_loc>984</source_loc>
+		<direction>out</direction>
+		<datatype W="24">sc_uint</datatype>
+	</port>
+	<ios>
+		<thread>do_filter</thread>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>17695</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_next_trig_req</name>
+			<source_loc>17707</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_data</name>
+			<source_loc>981</source_loc>
+			<direction>in</direction>
+			<datatype W="8">sc_uint</datatype>
+		</port>
+		<port>
+			<name>i_b_m_data_is_invalid</name>
+			<source_loc>17687</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_data</name>
+			<source_loc>978</source_loc>
+			<direction>in</direction>
+			<datatype W="8">sc_uint</datatype>
+		</port>
+		<port>
+			<name>i_g_m_data_is_invalid</name>
+			<source_loc>17676</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_data</name>
+			<source_loc>975</source_loc>
+			<direction>in</direction>
+			<datatype W="8">sc_uint</datatype>
+		</port>
+		<port>
+			<name>i_r_m_data_is_invalid</name>
+			<source_loc>17665</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_data</name>
+			<source_loc>984</source_loc>
+			<direction>out</direction>
+			<datatype W="24">sc_uint</datatype>
+		</port>
+		<port>
+			<name>mask_in1</name>
+			<source_loc>987</source_loc>
+			<direction>out</direction>
+			<datatype W="4">sc_uint</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>17656</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_stalling</name>
+			<source_loc>17655</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_busy_req_0</name>
+			<source_loc>17651</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_stalling</name>
+			<source_loc>17649</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_busy_req_0</name>
+			<source_loc>17645</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_stalling</name>
+			<source_loc>17643</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_busy_req_0</name>
+			<source_loc>17639</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_busy_0</thread>
+		<port>
+			<name>i_r_m_stall_reg_full</name>
+			<source_loc>17668</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_vld_reg</name>
+			<source_loc>17709</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_unvalidated_req</name>
+			<source_loc>17710</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_busy_req_0</name>
+			<source_loc>17639</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_vld</name>
+			<source_loc>974</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_data_is_invalid</name>
+			<source_loc>17665</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_data_is_valid</name>
+			<source_loc>17666</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_busy</name>
+			<source_loc>973</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_busy_internal</name>
+			<source_loc>17712</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unvalidated_req_0</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_vld</name>
+			<source_loc>974</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_busy_req_0</name>
+			<source_loc>17639</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_unvalidated_req</name>
+			<source_loc>17710</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_stall_reg_full_0</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_stalling</name>
+			<source_loc>17643</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_data_is_valid</name>
+			<source_loc>17666</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_stall_reg_full</name>
+			<source_loc>17668</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_reg_vld_0</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_vld</name>
+			<source_loc>974</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_busy_internal</name>
+			<source_loc>17712</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_r_m_vld_reg</name>
+			<source_loc>17709</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_busy_1</thread>
+		<port>
+			<name>i_g_m_stall_reg_full</name>
+			<source_loc>17679</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_vld_reg</name>
+			<source_loc>17728</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_unvalidated_req</name>
+			<source_loc>17729</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_busy_req_0</name>
+			<source_loc>17645</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_vld</name>
+			<source_loc>977</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_data_is_invalid</name>
+			<source_loc>17676</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_data_is_valid</name>
+			<source_loc>17677</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_busy</name>
+			<source_loc>976</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_busy_internal</name>
+			<source_loc>17731</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unvalidated_req_1</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_vld</name>
+			<source_loc>977</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_busy_req_0</name>
+			<source_loc>17645</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_unvalidated_req</name>
+			<source_loc>17729</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_stall_reg_full_1</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_stalling</name>
+			<source_loc>17649</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_data_is_valid</name>
+			<source_loc>17677</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_stall_reg_full</name>
+			<source_loc>17679</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_reg_vld_1</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_vld</name>
+			<source_loc>977</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_busy_internal</name>
+			<source_loc>17731</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_g_m_vld_reg</name>
+			<source_loc>17728</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_busy_2</thread>
+		<port>
+			<name>i_b_m_stall_reg_full</name>
+			<source_loc>17690</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_vld_reg</name>
+			<source_loc>17747</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_unvalidated_req</name>
+			<source_loc>17748</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_busy_req_0</name>
+			<source_loc>17651</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_vld</name>
+			<source_loc>980</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_data_is_invalid</name>
+			<source_loc>17687</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_data_is_valid</name>
+			<source_loc>17688</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_busy</name>
+			<source_loc>979</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_busy_internal</name>
+			<source_loc>17750</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unvalidated_req_2</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_vld</name>
+			<source_loc>980</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_busy_req_0</name>
+			<source_loc>17651</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_unvalidated_req</name>
+			<source_loc>17748</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_stall_reg_full_2</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_stalling</name>
+			<source_loc>17655</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_data_is_valid</name>
+			<source_loc>17688</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_stall_reg_full</name>
+			<source_loc>17690</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_reg_vld_2</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_vld</name>
+			<source_loc>980</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_busy_internal</name>
+			<source_loc>17750</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_b_m_vld_reg</name>
+			<source_loc>17747</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_vld</thread>
+		<port>
+			<name>o_result_m_req_active_s</name>
+			<source_loc>17766</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_unacked_req</name>
+			<source_loc>17767</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_vld</name>
+			<source_loc>983</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unacked_req</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>17695</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_unacked_req</name>
+			<source_loc>17767</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_stalling</thread>
+		<port>
+			<name>o_result_busy</name>
+			<source_loc>982</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_vld</name>
+			<source_loc>983</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>17695</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_active</thread>
+		<port>
+			<name>o_result_m_req_m_prev_trig_req</name>
+			<source_loc>17783</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>17656</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_active_s</name>
+			<source_loc>17766</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_prev_trig_reg</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>965</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>17656</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>966</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_prev_trig_req</name>
+			<source_loc>17783</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_next_trig_reg</thread>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>17656</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_next_trig_req</name>
+			<source_loc>17707</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+</snapshot>

@@ -1,0 +1,70 @@
+Operating system Centos 7,
+ GCC 7.3.0,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_V_DPA.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/GauFilter_cosim.v
+	module worklib.GauFilter_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/GauFilter/DPA/GauFilter_rtl.v
+	module worklib.GauFilter:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_ROM_9X8_mask.v
+	module worklib.GauFilter_ROM_9X8_mask:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: ....................
+            $readmemh("bdw_work/modules/GauFilter/DPA/GauFilter_ROM_9X8_mask_0.memh", mask);
+                                                                                         |
+ncelab: *W,MEMODR (./bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_ROM_9X8_mask.v,17|89): $readmem default memory order incompatible with IEEE1364.
+ Done
+	Generating native compiled code:
+		worklib.GauFilter:v <0x57dc19cd>
+			streams:  75, words: 26331
+		worklib.GauFilter_ROM_9X8_mask:v <0x0b533b08>
+			streams:   3, words:   935
+		worklib.top:v <0x7b9d56dd>
+			streams: 126, words: 112090
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 4       4
+		Registers:             181     181
+		Scalar wires:           32       -
+		Vectored wires:         17       -
+		Always blocks:          53      53
+		Initial blocks:         10      10
+		Cont. assignments:      23      37
+		Pseudo assignments:     10      10
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+        SystemC 2.3.1-Accellera --- Feb 14 2019 12:08:38
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+
+Info: (I804) /IEEE_Std_1666/deprecated: deprecated constructor: sc_time(uint64,bool)
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Simulation stopped via $stop(1) at time 43909175100 PS + 0
+./bdw_work/sims/top_V_DPA.v:69 		#100 $stop;
+ncsim> quit
+Total run time = 43909110 ns

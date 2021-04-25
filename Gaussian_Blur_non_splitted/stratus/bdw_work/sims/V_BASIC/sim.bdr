@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<tool_log>
+	<tool_kind>LogicSimulator</tool_kind>
+	<tool_name>NC Verilog</tool_name>
+	<hostname>ws34</hostname>
+	<uname>Linux 3.10.0-514.26.2.el7.x86_64 x86_64</uname>
+	<cwd>/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus</cwd>
+	<user>m109061634</user>
+	<gen_time>Mon Apr 26 03:11:04 2021</gen_time>
+	<module_inst>
+		<module_name>GauFilter</module_name>
+		<inst_path>sys.gau_blur_filter</inst_path>
+		<representation>RTL_V</representation>
+	</module_inst>
+	<end_time>Mon Apr 26 03:13:16 2021</end_time>
+	<passed>1</passed>
+</tool_log>

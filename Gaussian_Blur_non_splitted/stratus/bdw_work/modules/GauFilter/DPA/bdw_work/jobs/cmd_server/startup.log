@@ -1,0 +1,959 @@
+ Starting Stratus DPOpt (Linux)
+  Time: April 26, 2021. 03:13:24
+  Host: ws34
+  User: m109061634
+  Args: --dofile /usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl --locallogfile /dev/null -x bdw_server_start
+
+               Stratus DpOpt
+               =============
+              Version: 2019.1.01 
+
+  Copyright (c) 2014-2019 Cadence Design Systems.  All rights reserved worldwide.
+  
+  Warning: This computer program is protected by copyright law and 
+  international treaties.  Unauthorized reproduction, modification, 
+  or distribution of this program, or any portion of it, may result 
+  in severe civil and criminal penalties.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+  
+  Info: Script "/usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl" run successfully
+
+##########################################################################
+# Starting in server mode with port 37828
+#   client pid = 8757
+##########################################################################
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+WARNING: No library loaded, loading generic library. (CMDSHELL-13)
+WARNING: No directories in variable lib_path  (CMDSHELL-10)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/generic.lbf' and building datastructures (LBFPARSE-1)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/gencount.lbf' and building datastructures (LBFPARSE-1)
+INFO: Constructing composite cells (CMDSHELL-4)
+INFO: Library load complete (CMDSHELL-5)
+INFO: Instantiating implementation module "GauFilter_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2i1u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2i1u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2i1u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2i1u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Lti3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Lti3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Lti3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Lti3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi2u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi2u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi2u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi2u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi2u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi2u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi2u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi2u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi2u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi2u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi1u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi1u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi1u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi1u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi1u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi1u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2R11_4Mul2u8u8u8_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2R11_4Mul2u8u8u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2R11_4Mul2u8u8u8_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2R11_4Mul2u8u8u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2R11_4Mul2u8u8u8_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2R11_4Mul2u8u8u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2R11_4Mul2u8u8u8_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2R11_4Mul2u8u8u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_R11_4Mul2u8u8_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Running flattening on "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_R11_4Mul2u8u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_R11_4Mul2u8u8_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_R11_4Mul2u8u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_R11_4Mul2u8u8_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Running flattening on "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_R11_4Mul2u8u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_R11_4Mul2u8u8_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_R11_4Mul2u8u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2u2Mul2i3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2u2Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2u2Mul2i3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2u2Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Mul2i3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "GauFilter_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Mul2i3u2_4 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2i1u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2i1u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2i1u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2i1u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Lti3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Lti3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Lti3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Lti3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi2u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi2u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi2u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi2u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi2u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi2u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi2u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi2u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi2u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi2u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi2u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi2u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi1u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi1u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi1u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Eqi1u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Eqi1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Eqi1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Eqi1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Eqi1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Eqi1u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Eqi1u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2R11_4Mul2u8u8u8_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2R11_4Mul2u8u8u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2R11_4Mul2u8u8u8_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2R11_4Mul2u8u8u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2R11_4Mul2u8u8u8_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2R11_4Mul2u8u8u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2R11_4Mul2u8u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2R11_4Mul2u8u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2R11_4Mul2u8u8u8_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2R11_4Mul2u8u8u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_R11_4Mul2u8u8_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Running flattening on "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_R11_4Mul2u8u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_R11_4Mul2u8u8_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_R11_4Mul2u8u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_R11_4Mul2u8u8_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Running flattening on "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_R11_4Mul2u8u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_R11_4Mul2u8u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_R11_4Mul2u8u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_R11_4Mul2u8u8_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_R11_4Mul2u8u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2u2Mul2i3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2u2Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Add2u2Mul2i3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Add2u2Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Mul2i3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "GauFilter_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "GauFilter_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "GauFilter_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/GauFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "GauFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model GauFilter_Mul2i3u2_1 for output to /home/m109/m109061634/EE6470/hw/ee6470_hw5/Gaussian_Blur_non_splitted/stratus/bdw_work/modules/GauFilter/DPA/v_rtl/GauFilter_Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+

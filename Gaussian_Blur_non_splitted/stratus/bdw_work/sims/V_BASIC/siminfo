@@ -1,0 +1,5 @@
+bdw_work/sims/top_V_BASIC.v
+bdw_work/wrappers/GauFilter_cosim.v
+bdw_work/modules/GauFilter/BASIC/GauFilter_rtl.v
+bdw_work/modules/GauFilter/BASIC/v_rtl/GauFilter_ROM_9X8_mask.v
+
