@@ -135,7 +135,7 @@
         gau_blur_filter.i_rgb(rgb);
         gau_blur_filter.o_result(result);
 
-## 模擬結果
+## 模擬結果彙整
 
 #### splitted mode
 ##### BASIC 
@@ -144,7 +144,8 @@
 ##### DPA
 ###### Area = 1620
 ###### Run time = 43909110 ns
-
+  
+  
 #### non splitted mode
 ##### BASIC 
 ###### Area = 1617
