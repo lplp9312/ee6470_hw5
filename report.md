@@ -144,9 +144,9 @@
 ##### DPA
 ###### Area = 1620
 ###### Run time = 43909110 ns  
-######   
-######   
-######   
+<br/>
+<br/>
+<br/>
 #### non splitted mode
 ##### BASIC 
 ###### Area = 1617
