@@ -1,0 +1,22 @@
+[tree]
+Selection=stratus, Modules, GauFilter, DPA
+OpenTopLevel=Modules
+OpenModules=GauFilter
+OpenLibTypes=Resources
+OpenLibs=cachelib
+
+[analysis]
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\context=stratus::Modules::GauFilter::DPA
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\SplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x3\\\xff\xff\xff\xff\x1\0\0\0\x1\x1\0\0\0\x2)
+Index\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\accessAtOptimize=true
+Index\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\accessAtSchedule=true
+Index\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\accessAtRTL=true
+HLSConfigSummary\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\context=stratus::Modules::GauFilter::DPA
+HLSConfigSummary\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\scrollPos=0
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\shownTabs=Dashboard, RTL Summary
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\tornOffTabs=@Invalid()
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\splitTabs=@Invalid()
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\selTab=RTL Summary
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\selSplitTab=-1
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\TopSplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x1\xe7\xff\xff\xff\xff\x1\0\0\0\b\x1\0\0\0\x1)
+HLSConfig\stratus%3A%3AModules%3A%3AGauFilter%3A%3ADPA\TopSplitOrientation=false
